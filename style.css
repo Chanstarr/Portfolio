@@ -81,6 +81,9 @@ nav.sticky .menu a:hover{
   font-size: 50px;
   margin: 0 6px;
 }
+.navbar .media-icons a:hover{
+  color: #a928ba;
+}
 nav.sticky .media-icons a{
   color: #FFF;
 }
@@ -407,7 +410,12 @@ footer .text span a:hover{
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
 }
-
+.scroll-button a:hover{
+  font-size: 20px;
+  border-radius: 10px ;
+  color:#a928ba;
+  background: #e6e3e3;
+}
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content{
